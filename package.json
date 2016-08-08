@@ -4,11 +4,11 @@
   "description": "Seed project for starting a new JavaScript project",
   "main": "karma.conf.js",
   "directories": {
-    "test": "test"
+    "test": "karma start"
   },
   "scripts": {
     "test": "karma start",
-    "postinstall":"bower install"
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,10 @@
   "homepage": "https://github.com/haseebhatti/seedProject#readme",
   "devDependencies": {
     "jasmine-core": "^2.4.1",
+    "karma": "^1.1.2",
     "karma-chrome-launcher": "^1.0.1",
-    "karma-jasmine": "^0.1.0"
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^0.1.0",
+    "karma-spec-reporter": "0.0.26"
   }
 }
